@@ -18,7 +18,6 @@ public class AccessibilityViolationsTest extends SetUp {
 
 
 
-
         AxeResults accessibilityScanResults = new AxeBuilder(page).analyze();
         System.out.println("EmptyList " + Collections.emptyList());
         System.out.println("Violations " + accessibilityScanResults.getViolations());
